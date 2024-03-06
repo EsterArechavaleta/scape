@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>colgado</title>
+</head>
+<body>
+    <div id="menu">
+        <img  id="logo" src="/imagenes/cerradura.jpg" alt="">
+        <h1  id="nombre">ESCÁPATE...  SI PUEDES</h1>
+        <button id="logout">Logout</button>
+        <button id="perfil"><a href="css/colgado.css">Mi perfil</a></button>
+    </div>
+    
+    <div class="categoria">
+        <label for="categoria"> Elije una categoria: </label>
+        <select name="categoria" id="categoria">
+            <option value=" "></option>
+            <option value="musica" class="musica">Musica</option>
+            <option value="cine" class="cine">Cine</option>
+            <option value="television" class="television">Televisión</option>
+            <option value="videoJuegos" class="videoJuegos">Video juegos</option>
+        </select>
+    </div>
+    <div class="contenidor-seleccionar">
+        <label>Selecciona una letra, te quedan <span id="contadorIntentos">7</span> intentos.</label>
+        
+    </div>
+    <div class="contenidor">
+        <div id="palabra"></div>
+        <div class="fila">
+            <div class="letra">A</div>
+            <div class="letra">B</div>
+            <div class="letra">C</div>
+            <div class="letra">D</div>
+            <div class="letra">E</div>
+            <div class="letra">F</div>
+            <div class="letra">G</div>
+            <div class="letra">H</div>
+        </div>
+        <div class="fila">
+            <div class="letra">I</div>
+            <div class="letra">J</div>
+            <div class="letra">K</div>
+            <div class="letra">L</div>
+            <div class="letra">M</div>
+            <div class="letra">N</div>
+            <div class="letra">Ñ</div>
+            <div class="letra">O</div>
+        </div>
+        <div class="fila">
+            <div class="letra">P</div>
+            <div class="letra">Q</div>
+            <div class="letra">R</div>
+            <div class="letra">S</div>
+            <div class="letra">T</div>
+            <div class="letra">U</div>
+            <div class="letra">V</div>
+            <div class="letra">W</div>
+        </div>
+        <div class="fila">
+            <div class="letra">X</div>
+            <div class="letra">Y</div>
+            <div class="letra">Z</div>
+        </div>
+    
+    </div>
+    <p class="text" >Has cometido <span id="contadorErrores">0</span> errores.</p>
+
+    <div class="countdown">
+        <div class="tiles">
+            <span id="horas">00</span>
+            <span id="minutos">00</span>
+            <span id="segundos">00</span>
+            
+        </div>
+    </div>
+    <button id="empezar">Iniciar</button>
+    <!-- pop_ups a mostrar -->
+    <div  id="envoltorio-victoria">
+        <div  class=" popup">
+            <div  id="cerrar-popup">x</div>
+            <div  id="contenido-victoria">
+                <h2>¡LO CONSEGUISTE!</h2>
+                <h4>Has acertado la palabra y se ha abierto la puerta</h4>
+            </div>
+        </div>
+      </div>
+        
+      <div  id="envoltorio-derrota">
+        <div  class=" popup">
+            <div  id="cerrar-popup">x</div>
+            <div  id="contenido-derrota">
+                <h2>¡Has perdido!</h2>
+                <h4>Intentalo de nuevo.</h4>
+            </div>
+        </div>
+      </div>
+        <script src="js/colgado.js" type="module"></script>
+        <script src="js/logout.js"></script>
+    </body>
+</html>

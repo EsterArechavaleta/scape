@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans&family=Pacifico&display=swap');
+
+body {
+    background-color: #abb3b0;
+    display: flex;
+    color: #d8e4ff;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+#menu {
+    width: 100%;
+    padding: 5px;
+    background-color: #293336;
+    display: inline-flex;
+    color: #d8e4ff;
+    height: 100px;
+
+}
+
+#nombre {
+    text-align: center;
+    margin-left: 420px;
+    font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(165, 42, 42);
+}
+
+#logo {
+    display: inline-block;
+    width: 95px;
+    padding: px;
+    height:95px ;
+}
+
+#logout{
+    margin-left: 315px;
+    margin-top: 30px;
+    display: block;
+    height: 30px;
+    width: 75px;
+    background-color: rgb(135, 135, 245);
+    color: #d8e4ff;
+}
+
+#perfil{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: block;
+    height: 30px;
+    width: 75px;
+    background-color: rgb(135, 135, 245);
+    color: #d8e4ff;
+}
+
+.contenidor{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin-top: 35px;
+}
+
+#form {
+    display: block;
+    text-align: center;
+    border: #293336;
+}
+
+h2{
+    font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(165, 42, 42);
+    font-size: 30px;
+}
+
+.form{
+    padding: 15px 30px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.form-control label{
+    color: rgb(165, 42, 42);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.form-control input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.correcte input{
+    border-color: var(--correcteColor);
+}
+
+.form-control.error input{
+    border-color: var(--errorColor);
+}
+
+.form-control small{
+    color: var(--errorColor);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+.form button{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(137, 137, 245);
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    
+}

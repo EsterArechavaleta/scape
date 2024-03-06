@@ -1,0 +1,90 @@
+22/01/2024
+
+    Elección de paleta de colores para la app.
+    Búsqueda en internet de ideas e imágenes.
+    Elección y descarga de imágenes y temas.
+
+23/01/2024
+    
+    Elección de preguntas por temas
+    1ª idea:
+        1ª prueba : Ahorcado, la palabra resultado es una pista en la siguiente prueba.
+        2ª prueba : Quizz, la pregunta y respuesta correcta están relacionadas, de alguna manera con 
+                          la palabra resultante de la primera prueba. 
+        (Pendiente decidir tiempo límite por prueba y penalización por pista utilizada).
+                          
+24/01/2024
+
+    Creación del index con el menú, css y primer js, 
+    Elección de letra, adaptación de colores  
+    Recolección de preguntas para el quizz
+    Creación de html de registro 
+
+29/01/2023
+
+    Acabado del Index, con imagen en background y medidas adaptadas a pantalla ordenador
+    Inicio creación del quizz.html y js para prueba 2
+    Inserción de las primeras preguntas y respuestas en el js de quizz
+
+31/01/2024
+
+    Investigación y creación del Registro y Login, con inicio de testeo, en localStorage
+    
+05/02/2024
+
+    Perfeccionar css, corrección de errores en registro e incorporación de validación de formularios
+
+06/02/2024
+
+    Finalización de formulario de registro con pruebas de funcionamiento
+    Inicio de formulario de logueo e inicio de página con menú para jugadores logueados
+
+07/02/2024
+
+    Finalizacion maquetado pantalla inicio de juego con elección de prueba y repaso css
+    Inicio html perfil de usuario para proceder a realización de archivo de actualización de datos
+
+12/02/2024
+
+    Montado y maquetado del ahorcado (falta puntuación y pistas)
+    Realización de pruebas del quizz y el ahorcado
+
+13/02/2024
+
+    Busqueda y descarga de imágenes para realización de fondo para el quizz, registro
+    Más pruebas de ahorcado (detectado día 12 posible error en elección de palabra pero solucionado)
+    Realización en aplicación CANVA de imagen colage de fondo con las imágenes descargadas
+    Introducción de cuenta atrás en el quizz (falta implementar funcionalidad)
+    (Pendiente:
+    - sistema de pistas
+    - puntuación
+    - Login
+    - recuperación de partida comenzada
+    - Logout)
+
+14/02/2024
+
+    Realización de pruebas de quizz y ahorcado
+    Implementada funcionalidad de cuenta atras en quizz
+    Mejora vista de preguntas en quizz
+    Realización de conexiones entre los html y pruebas de registro
+    
+19/02/2024
+
+    Realización de logout y su funcionalidad
+    Realización funcionalidad de login
+    Realización funcionalidad edición de perfil de usuario
+    Introducción de estado y partidas en perfil de usuario para poder implementar guardar partida.
+
+20/02/2024
+
+    Corrección errores en login y logout.
+    Inserción de pistas en quizz.js
+    Implementación botón pista en quizz.html y div para mostrarla en pantalla
+
+26/02/2024
+
+    Creación del juego de búsqueda, mapeo de la imagen 
+
+
+

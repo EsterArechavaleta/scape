@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans&family=Pacifico&display=swap');
+body {
+    background-color: #abb3b0;
+    display: flex;
+    color: #d8e4ff;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+#menu {
+    width: 100%;
+    padding: 5px;
+    background-color: #293336;
+    display: inline-flex;
+    color: #d8e4ff;
+    height: 100px;
+
+}
+#nombre {
+    text-align: center;
+    margin-left: 420px;
+    font-family: 'Creepster', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(165, 42, 42);
+}
+#logo {
+    display: inline-block;
+    width: 95px;
+    padding: px;
+    height:95px ;
+}
+#login{
+    margin-left: 280px;
+    margin-top: 30px;
+    display: block;
+    height: 30px;
+    width: 75px;
+    background-color: rgb(135, 135, 245);
+    color: #d8e4ff;
+}
+#register{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: block;
+    height: 30px;
+    width: 75px;
+    background-color: rgb(135, 135, 245);
+    color: #d8e4ff;
+}
+#logout{
+    margin-left: 315px;
+    margin-top: 30px;
+    display: block;
+    height: 30px;
+    width: 75px;
+    background-color: rgb(135, 135, 245);
+    color: #d8e4ff;
+}

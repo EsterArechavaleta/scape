@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quizz</title>
+        <link rel="stylesheet" href="css/quizz.css">
+    </head>
+
+    <body id="body-quizz">
+        <div id="menu">
+            <img  id="logo" src="/imagenes/cerradura.jpg" alt="">
+            <h1  id="nombre">ESCÁPATE...  SI PUEDES</h1>
+            <button id="logout">Logout</button>
+            <button id="perfil"><a href="perfil.html">Mi perfil</a></button>
+        </div>
+
+        <div id="preguntaPropuesta" class="contenedor"></div>
+        <button class="btn" id="btnIzquierdo"></button>
+        <button class="btn" id="btnDerecho"></button>
+        <div id="mensaje"></div>
+        <div class="countdown" id="crono">
+            <div class="tiles">
+                <span id="horas">00</span>
+                <span id="minutos">00</span>
+                <span id="segundos">00</span>
+            </div>
+        </div>
+        <button class="btn" id="btnReiniciar">Iniciar</button>
+        
+        <div  id="envoltorio-victoria">
+            <div  class=" popup">
+                <div  id="cerrar-popup">x</div>
+                <div  id="contenido-victoria">
+                    <h2>¡LO CONSEGUISTE!</h2>
+                    <h4>Has pasado la prueba</h4>
+                    <button id="siguiente"><a href="colgado.html">Siguiente nivel</a></button>
+                </div>
+            </div>
+          </div>
+            
+          <div  id="envoltorio-derrota">
+            <div  class=" popup">
+                <div  id="cerrar-popup">x</div>
+                <div  id="contenido-derrota">
+                    <h2>¡Has perdido!</h2>
+                    <h4>Intentalo de nuevo.</h4>
+                </div>
+            </div>
+          </div>
+   
+        <script src="js/quizz.js"></script>
+        <script src="js/logout.js"></script>
+    </body>
+</html>

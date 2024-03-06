@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/diferencias.css">
+        <title>diferencias</title>
+    </head>
+    <body>
+        <div id="menu">
+            <img  id="logo" src="/imagenes/cerradura.jpg" alt="">
+            <h1  id="nombre">ESCÁPATE...  SI PUEDES</h1>
+            <button id="logout">Logout</button>
+            <button id="perfil"><a href="css/colgado.css">Mi perfil</a></button>
+        </div>
+        <p id="mensajitoInicio">Busca las diferencias, te quedan <span id="contadorDiferencias">5</span> por encontrar en la imagen de la derecha.</p>
+    
+        <div id="contiene-imagenes">
+            <img id="diferenciasOriginal" src="/imagenes/diferenciasOriginal.jpg" alt="diferenciasOriginal" usemap="#diferenciasOriginal" width="295" height="443">
+            <img id="diferencias5" src="/imagenes/diferencias5.jpg" alt="diferencias5" usemap="#diferencias5" width="295" height="443">
+            <div id="palabras-encontradas">
+                <div class="lazo" id="lazo">1. Lazo</div>
+                <div class="faldonMarron" id="faldonMarron">2. Faldón marrón</div>
+                <div class="faldonNaranja" id="faldonNaranja">3. Faldón naranja</div>
+                <div class="collar" id="collar">4. Collar</div>
+                <div class="adornoPelo" id="adornoPelo">5. Adorno de pelo</div>
+
+            </div>
+            <map name="diferencias5">
+                <area id= "lazo" shape="rect" coords="99, 39, 111, 58" alt="Lazo" onclick="lazos()">
+                <area id= "faldonMarron" shape="rect" coords="16, 146, 26, 174" alt="FaldonMarron" onclick="marron()">
+                <area id= "faldonNaranja" shape="rect" coords="46, 392, 57, 438" alt="FaldonNaranja" onclick="naranja()">
+                <area id= "collar" shape="rect" coords="111, 197, 122, 199" alt="Collar" onclick="collares()">
+                <area id= "adornoPelo" shape="rect" coords="168, 181, 175, 189" alt="AdornoPelo" onclick="adorno()">
+            </map>
+            
+        </div>
+
+        <div class="countdown">
+            <div class="tiles">
+                <span id="horas">00</span>
+                <span id="minutos">00</span>
+                <span id="segundos">00</span>
+            </div>
+        </div>
+
+        <button id="empezar">Iniciar</button>
+
+        <!-- pop_ups a mostrar -->
+    <div  id="envoltorio-victoria">
+        <div  class=" popup">
+            <div  id="cerrar-popup">x</div>
+            <div  id="contenido-victoria">
+                <h2>¡MUCHAS GRACIAS!</h2>
+                <h4>¡¡¡¡Has conseguido liberarme!!!!</h4>
+            </div>
+        </div>
+      </div>
+        
+      <div  id="envoltorio-derrota">
+        <div  class=" popup">
+            <div  id="cerrar-popup">x</div>
+            <div  id="contenido-derrota">
+                <h2>¡Has perdido!</h2>
+                <h4>Intentalo de nuevo.</h4>
+            </div>
+        </div>
+      </div>
+
+        <script src="js/diferencias.js"></script>
+    
+</body>
+</html>
